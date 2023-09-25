@@ -131,6 +131,7 @@ Don't just tell the reader what went wrong or was challenging!  Describe how you
 * Spicy part: Now control the servo with 2 buttons. 
 The servo only moves if you are pushing a button.
 
+### Code
 ```python
 while True:
     print(button.value)
