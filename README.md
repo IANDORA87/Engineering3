@@ -167,6 +167,67 @@ Then post an image here.   [Here's a quick tutorial for all markdown code, like 
 ### Reflection
 During this assignment I leanred how to make a easy version and a hard version of the code after taking the long route the first time. THe first time i made one button make it go two seprate directions then the second time i figured it out with two and it was easier. I leanred from this assignment that trying to find shortcuts can make it harder on yourself.
 
+
+## CircuitPython Distance Sensor 
+
+### Description & Code Snippets
+Use the HC-SR04 to measure the distance to an object and print that out to your serial monitor or LCD in cm.
+Next, you will get the neopixel to turn red when your object is less than 5cm, and green when its 35cm.  Ignore the blue and 20cm for now, let's just keep it simple.
+For your final version of this code, you'll smoothly shift the color of the onboard neopixel, corresponding to the distance, according to the graphic below.
+(Neopixel should stay red when below 5cm and green when above 35cm)
+
+```python
+from rainbowio import colorwheel
+import neopixel
+import time
+import board
+import adafruit_hcsr04
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D3, echo_pin=board.D2)
+
+
+NUMPIXELS = 6  # Update this to match the number of LEDs.
+BRIGHTNESS = 0.2  # A number between 0.0 and 1.0, where 0.0 is off, and 1.0 is max.
+PIN = board.NEOPIXEL  # This is the default pin on the 5x5 NeoPixel Grid BFF.
+
+RED = (255, 0, 0)
+YELLOW = (255, 150, 0)
+GREEN = (0, 255, 0)
+CYAN = (0, 255, 255)
+BLUE = (0, 0, 255)
+PURPLE = (180, 0, 255)
+
+pixels = neopixel.NeoPixel(PIN, NUMPIXELS, brightness=BRIGHTNESS, auto_write=False)
+
+print("starting up...")
+while True:
+    try:
+        print((sonar.distance,))
+        cm = sonar.distance
+        print(cm)
+        if cm < 5:
+            pixels.fill(RED) 
+        elif cm > 35:
+            pixels.fill(GREEN)
+        else:
+          pixels.fill(BLUE)
+        pixels.show()
+    except RuntimeError:
+        print("Retrying!")
+    time.sleep(0.1)    
+```
+
+**Lastly, please end this section with a link to your code or file.**  
+
+### Evidence
+
+### Wiring
+[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
+For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
+Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+### Reflection
+Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+
+
 ## NextAssignment
 
 ### Description & Code Snippets
@@ -181,7 +242,7 @@ Write a couple sentences here, describing this assignment, and make sure that yo
 Code goes here
 
 ```
-
+[circuitpython DistanceSensor](DistanceSensor.py)
 **Lastly, please end this section with a link to your code or file.**  
 
 ### Evidence
