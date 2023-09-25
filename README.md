@@ -124,9 +124,44 @@ Then post an image here.   [Here's a quick tutorial for all markdown code, like 
 ### Reflection
 Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
 
+## CircuitPython Servo
 
+### Description & Code Snippets
+* Get a 180° micro servo to slowly sweep back and forth between 0 and 180°.   
+* Spicy part: Now control the servo with 2 buttons. 
+The servo only moves if you are pushing a button.
 
+```python
+while True:
+    print(button.value)
+    if button.value:  # Button is pressed (remember, we're assuming it's pull-down)
+        print("btn1 pressed \t")
+        print(current_angle)
+        current_angle = current_angle + 10
+        current_angle = max(0, min(360, current_angle))
+        my_servo.angle = current_angle  # Set the new angle
+    time.sleep(0.05)  # Small delay to avoid excessive checking
 
+    print(button2.value)
+    if button2.value:  # Button is pressed (remember, we're assuming it's pull-down)
+        print("btn2 pressed \t")
+        print(current_angle)
+        current_angle = current_angle - 10
+        current_angle = max(0, min(360, current_angle))
+        my_servo.angle = current_angle  # Set the new angle
+    time.sleep(0.05)  # Small delay to avoid excessive checking
+
+```
+
+[circuitpython servo](Servo.py)
+### Evidence
+
+### Wiring
+[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
+For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
+Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+### Reflection
+My reflection
 
 ## NextAssignment
 
