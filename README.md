@@ -159,7 +159,7 @@ while True:
 
 ### Wiring
 
-<img src="images/accident.gif" size="50%">
+<img src="images/Accident.gif" size="50%">
 
 [tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
 For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
