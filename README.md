@@ -165,7 +165,7 @@ while True:
 For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
 Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
 ### Reflection
-My reflection
+During this assignment I leanred how to make a easy version and a hard version of the code after taking the long route the first time. THe first time i made one button make it go two seprate directions then the second time i figured it out with two and it was easier. I leanred from this assignment that trying to find shortcuts can make it harder on yourself.
 
 ## NextAssignment
 
