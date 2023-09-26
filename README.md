@@ -226,6 +226,46 @@ This code was difficult until i understood that the distance sensor is just sayi
 <img src="images/distance wiring.jpg" size="50%">
 
 
+
+## Motor control
+
+### Description & Code Snippets
+Wire up a 6v battery pack to this circuit with a motor.
+Write Python code to make the motor speed up and slow down, based on input from a potentiometer.
+
+```python
+import time 
+import board
+from analogio import AnalogIn
+import pwmio
+from digitalio import DigitalInOut
+
+#pins
+potentiometerpin = AnalogIn(board.A0)
+motorpin = pwmio.PWMOut(board.D7)
+
+#prints the potentiometer value then writes it to the motor
+while True:
+    print(potentiometerpin.value)
+    time.sleep(0.1)
+    motorpin.duty_cycle = potentiometerpin.value
+```
+[circuitpython DistanceSensor](DistanceSensor.py)
+**Lastly, please end this section with a link to your code or file.**  
+
+### Evidence
+
+### Wiring
+[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
+For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
+Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+### Reflection
+Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+
+
+
+
+
 ## NextAssignment
 
 ### Description & Code Snippets
