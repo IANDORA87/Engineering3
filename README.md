@@ -165,9 +165,7 @@ while True:
 For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
 Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
 ### Reflection
-During this assignment I leanred how to make a easy version and a hard version of the code after taking the long route the first time. THe first time i made one button make it go two seprate directions then the second time i figured it out with two and it was easier. I leanred from this assignment that trying to find shortcuts can make it harder on yourself.
-
-
+This code was difficult until i understood that the distance sensor is just saying print the value that its picking up anyway. Then to set the colors on the neopixle from my old code to save myself a step. I then figured out that the code was simply saying if the distance is more or less then a certain value activate this color. And now when putting it all together and adding a few tweaks made it work.
 ## CircuitPython Distance Sensor 
 
 ### Description & Code Snippets
@@ -176,6 +174,7 @@ Next, you will get the neopixel to turn red when your object is less than 5cm, a
 For your final version of this code, you'll smoothly shift the color of the onboard neopixel, corresponding to the distance, according to the graphic below.
 (Neopixel should stay red when below 5cm and green when above 35cm)
 
+#### code
 ```python
 from rainbowio import colorwheel
 import neopixel
@@ -216,16 +215,11 @@ while True:
     time.sleep(0.1)    
 ```
 
-**Lastly, please end this section with a link to your code or file.**  
-
+https://github.com/JoshBricker30/Engineering3/blob/main/lib/DistanceSensor.py
 ### Evidence
 
 ### Wiring
-[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
-For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
-Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
-### Reflection
-Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+<img src="images/distance wiring.jpg" size="50%">
 
 
 ## NextAssignment
