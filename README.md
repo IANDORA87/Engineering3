@@ -165,7 +165,7 @@ while True:
 For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
 Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
 ### Reflection
-This code was difficult until i understood that the distance sensor is just saying print the value that its picking up anyway. Then to set the colors on the neopixle from my old code to save myself a step. I then figured out that the code was simply saying if the distance is more or less then a certain value activate this color. And now when putting it all together and adding a few tweaks made it work.
+
 ## CircuitPython Distance Sensor 
 
 ### Description & Code Snippets
@@ -217,6 +217,10 @@ while True:
 
 https://github.com/JoshBricker30/Engineering3/blob/main/lib/DistanceSensor.py
 ### Evidence
+
+#### Reflection
+This code was difficult until i understood that the distance sensor is just saying print the value that its picking up anyway. Then to set the colors on the neopixle from my old code to save myself a step. I then figured out that the code was simply saying if the distance is more or less then a certain value activate this color. And now when putting it all together and adding a few tweaks made it work.
+
 
 ### Wiring
 <img src="images/distance wiring.jpg" size="50%">
