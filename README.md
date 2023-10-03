@@ -86,6 +86,8 @@ Then post an image here.   [Here's a quick tutorial for all markdown code, like 
 Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
 
 
+
+
 ## CircuitPython_LCD
 
 ### Description & Code Snippets
@@ -123,6 +125,19 @@ Then post an image here.   [Here's a quick tutorial for all markdown code, like 
 
 ### Reflection
 Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## CircuitPython Servo
 
@@ -166,13 +181,20 @@ For example, I use an Arduino Uno to represent my Circuitpython device but write
 Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
 ### Reflection
 
+
+
+
+
+
+
+
+
+
+
 ## CircuitPython Distance Sensor 
 
 ### Description & Code Snippets
-Use the HC-SR04 to measure the distance to an object and print that out to your serial monitor or LCD in cm.
-Next, you will get the neopixel to turn red when your object is less than 5cm, and green when its 35cm.  Ignore the blue and 20cm for now, let's just keep it simple.
-For your final version of this code, you'll smoothly shift the color of the onboard neopixel, corresponding to the distance, according to the graphic below.
-(Neopixel should stay red when below 5cm and green when above 35cm)
+In this assignment we are supposed to combine new knowlage and prior knowlage from last year by making a ultrasonic sensor that controls a RBG LED. We will do this by combining the LED code and saying when a distance is then change the color. THe goal is to get it to change from red up close to blue in the middle and green far way.
 
 #### code
 ```python
@@ -227,11 +249,19 @@ This code was difficult until i understood that the distance sensor is just sayi
 
 
 
+
+
+
+
+
+
+
+
+
 ## Motor control
 
 ### Description & Code Snippets
-Wire up a 6v battery pack to this circuit with a motor.
-Write Python code to make the motor speed up and slow down, based on input from a potentiometer.
+The goal of this assignment is to wire a DC motor to a metro board with a 9v battery pack without burning out any of the wires. Then code the simple dc motor to simply turn on.
 
 ```python
 import time 
@@ -256,11 +286,17 @@ while True:
 ### Evidence
 
 ### Wiring
-[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
-For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
-Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+<img src="images/Motor Control Wiring.png" size="50%">
+
+  
+
 ### Reflection
-Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+For this assingment i enjoyed the coding becuase it was very easy. But the wiring on the other hand was not easy at all it reqiured a lot of extra percaution since there was a lot of electricity flowing threw and could have burned something out. What made it so difficultis the placement of all the resisors along with all the extra potentiemotor wiring.
+
+
+
+
+
 
 
 
