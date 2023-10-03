@@ -263,7 +263,7 @@ This code was difficult until i understood that the distance sensor is just sayi
 ## Motor control
 
 ### Description & Code Snippets
-The goal of this assignment is to wire a DC motor to a metro board with a 9v battery pack without burning out any of the wires. Then code the simple dc motor to simply turn on.
+The goal of this assignment is to wire a DC motor to a metro board with a 9v battery pack without burning out any of the wires. Then the code was simple all it was is getting the dc motor to simply turn on and to be able to control it through a potentiomotor.
 
 ```python
 import time 
