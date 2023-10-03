@@ -5,6 +5,8 @@ This repository will actually serve as an aid to help you get started with your 
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
+* [CircuitPython Distance Sensor ](#CircuitPython Distance Sensor )
+* [Motor control](#Motor control)
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
 
