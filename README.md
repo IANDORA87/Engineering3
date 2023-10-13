@@ -302,6 +302,47 @@ For this assingment i enjoyed the coding becuase it was very easy. But the wirin
 
 
 
+## Onshape_Hanger_Assignment
+
+### Assignment Description
+
+This was our first assigenment being back at onshape and we had to design a simple hanger. This was our first practice part for the onshape exam aswell. This is mostly a warmup assigment that gives us reminders of onshape skills.
+### Evidence
+
+<img src="images/hangerfront.png" size="50%">
+<img src="images/hangerside.png" size="50%">
+<img src="images/hangertop.png" size="50%">
+
+
+
+### Part Link 
+
+[Create a link to your Onshape document]
+https://cvilleschools.onshape.com/documents/be93d5075161051205e997e4/w/d2c856fb1567cf9c57654302/e/1a54adff2da9b8ab0c5bcce5?renderMode=0&uiState=6529600c9cf7365098a3501e
+
+### Reflection
+
+This assignment was a great reminder For Hoe onshape worked and a good warm up. It felt good to be back to 3d design and away from code. I liked how this included a lot of the most important onshape tools. It made me think about when to use reflections cause when i did it right i only had to do half the amount of work. And honestly the documentation for onshape makes more sense and is easier.
+
+&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## NextAssignment
@@ -330,3 +371,27 @@ Then post an image here.   [Here's a quick tutorial for all markdown code, like 
 ### Reflection
 Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
 
+
+
+
+
+
+## Onshape_Assignment_Template
+
+### Assignment Description
+
+Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+
+### Evidence
+
+Take several cropped screenshots of your Onshape document from different angles. Try to capture all important aspects of the design. Turn off overlays that obscure the parts, such as planes or mate connectors. Your images should have captions, so the reader knows what they are looking at!  
+
+### Part Link 
+
+[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;
