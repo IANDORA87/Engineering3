@@ -302,6 +302,9 @@ For this assingment i enjoyed the coding becuase it was very easy. But the wirin
 
 
 
+
+
+
 ## Onshape_Hanger_Assignment
 
 ### Assignment Description
@@ -332,6 +335,33 @@ This assignment was a great reminder For Hoe onshape worked and a good warm up. 
 
 
 
+
+
+
+
+
+
+## Onshape_Swing_arm
+
+### Assignment Description
+
+For this assigment we were supposed to design a swing arm in 3d design cad workspace. This assigment reqiures more advanced onshape tools along with more thinking reqiured for the order of how to do the assigemnt. we also had to fil;l in some blanks for the deimenisoning of this assigment. We had Mutiple pictures to figure out how to do this but that was about it.
+
+### Evidence
+
+<img src="images/swingfront.png" size="50%">
+<img src="images/swingside.png" size="50%">
+<img src="images/swingtop.png" size="50%">
+
+### Part Link 
+
+[Create a link to your Onshape document]
+https://cvilleschools.onshape.com/documents/1d2a66ba1e76c0ab924b0091/w/d5315b704b182d8b71e56040/e/f8a7ce35703c19fea9b31bc6?renderMode=0&uiState=652d51d6f5617a59bb8d3c34
+
+### Reflection
+
+For this assingment i struggled with the dimensions and putting the parts together. The diminsions were tricky becuase we had to figure them out based on other things for some parts of it, which means if we got one diminsion wrong it couldve messed up the whole project. And putting the parts together was difficult becuase i couldnt figure out wether to put everything in one sketch or two add on to an already extruted part of the swing arm. This was a good learning expeirce for me on how to use new tools like the 3 point arc and tangent. Overall it was easy enough that it was possible for my level of cad but hard enough that I leanred from it.
+&nbsp;
 
 
 
