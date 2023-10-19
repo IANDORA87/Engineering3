@@ -55,7 +55,7 @@ while True:
 
 ### Wiring
 
-<img src="images/Accident.gif" size="50%">
+<img src="images/servowiring.png" size="50%">
 
 [tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
 For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
@@ -204,7 +204,7 @@ https://cvilleschools.onshape.com/documents/be93d5075161051205e997e4/w/d2c856fb1
 
 ### Reflection
 
-This assignment was a great reminder For Hoe onshape worked and a good warm up. It felt good to be back to 3d design and away from code. I liked how this included a lot of the most important onshape tools. It made me think about when to use reflections cause when i did it right i only had to do half the amount of work. And honestly the documentation for onshape makes more sense and is easier.
+This assignment was a great reminder For How onshape worked, and a good warm up. It felt good to be back to 3d design and away from code. I liked how this included a lot of the most important onshape tools. It made me think about when to use reflections cause when i did it right i only had to do half the amount of work. And honestly the documentation for onshape makes more sense and is easier.
 
 &nbsp;
 
