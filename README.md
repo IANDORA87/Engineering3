@@ -166,6 +166,7 @@ while True:
 **Lastly, please end this section with a link to your code or file.**  
 
 ### Evidence
+![MotorControlGIF](https://github.com/JoshBricker30/Engineering3/assets/143528213/982b988a-29f7-4c15-a3b9-10a09a2e5666)
 
 ### Wiring
 <img src="images/Motor Control Wiring.png" size="50%">
