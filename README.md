@@ -52,6 +52,7 @@ while True:
 
 [circuitpython servo](Servo.py)
 ### Evidence
+![RealServoMotorGif](https://github.com/JoshBricker30/Engineering3/assets/143528213/35437bbd-0508-41a0-a0ef-7c059317a960)
 
 ### Wiring
 
