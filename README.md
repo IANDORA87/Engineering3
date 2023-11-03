@@ -256,6 +256,42 @@ For this assingment i struggled with the dimensions and putting the parts togeth
 
 
 
+## MultipartStudio_part_1
+
+### Assignment Description
+The goal of this assingment is to learn how to design mutiple parts in one studio that are all still connected. Then Once done with first part of making it there are questions and challanges we have to complete. We are also getting genreal 3d design practice.
+
+### Evidence
+
+<img src="images/MultipartFront.png" size="50%">
+<img src="images/MultipartSide.png" size="50%">
+<img src="images/MultipartTop.png" size="50%">
+<img src="images/MultipartBottom.png" size="50%">
+
+
+### Part Link 
+
+[Create a link to your Onshape document]https://cvilleschools.onshape.com/documents/46387862641204135bf95322/w/d70628ab6e2940eb7a2e048c/e/4e490dad8a37880fc56a470a?renderMode=0&uiState=654512817dd338189ff0f485
+
+### Reflection
+
+This assingment was challenging due to THe complexty of adding the new parts on to the already exsisting parts of the design. Since you cant make any mistakes and need all the parts to fit together correctly like a puzzle. I also thought the the whole on the top cap was overcomplicated since you have to figure out dimensions on your own and use the revolve tool.Overall it was good practice and has expanded my understading of onshape.
+&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## NextAssignment
 
 ### Description & Code Snippets
