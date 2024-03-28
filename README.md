@@ -388,9 +388,8 @@ Don't just tell the reader what went wrong or was challenging!  Describe how you
 ### Planning, Description
 The goal of our robot arm is to be able to pick up an object and place it in a diffrent location based on the person controlling it. We plan to make our robot arm open and close with a screw like sytem powered by dc motors and double A batteries. We plan to 3D print our robot arm and make the wiring out of the materials provided by the engineering lab, which include 3 DC motors, male jumper cabels, Ardiuno, breadboard, other wiring related objects and 3d printed part's. The design is relativily simple with the main motion of the arm opening and closing and going up and down working on the screw sytem, and the arm moving right to left on a pully sytem connected to a frame. The code will make it so we have buttons that will control open close, up down, and side to side. Our goal is to make it work like a arcade claw machine but with buttons.
   
-<img src="images/DesignPic1.png" size="50%">
-<img src="images/DesignPic2.png" size="50%">
-<img src="images/DesignPic3.png" size="50%">
+
+
 
 
 ```python
@@ -426,9 +425,14 @@ while True:
     time.sleep(0.05)  # Small delay to avoid excessive checking
 
 ### Evidence
-<img src="images/DesignPic1.png" size="50%">
-<img src="images/DesignPic2.png" size="50%">
-<img src="images/DesignPic3.png" size="50%">
+
+![DesignPic1](https://github.com/JoshBricker30/Engineering3/assets/143528213/dbfcc4b6-76ad-494e-b901-abff5793a746)
+
+![DesignPic2](https://github.com/JoshBricker30/Engineering3/assets/143528213/3e005da2-d389-48eb-a781-d1367075a09d)
+
+![DesignPic3](https://github.com/JoshBricker30/Engineering3/assets/143528213/9dadb9ef-a50d-4de0-8c7f-c09869f63296)
+
+
 ### Wiring
 [tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
 For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
