@@ -392,7 +392,8 @@ The goal of our robot arm is to be able to pick up an object and place it in a d
 
 
 
-```python
+```
+python
 import time 
 import board
 from analogio import AnalogIn
@@ -423,14 +424,12 @@ while True:
     motorpin.duty_cycle = potentiometerpin.value
 
     time.sleep(0.05)  # Small delay to avoid excessive checking
-
+````
 ### Evidence
 
-![DesignPic1](https://github.com/JoshBricker30/Engineering3/assets/143528213/dbfcc4b6-76ad-494e-b901-abff5793a746)
+![image](https://github.com/JoshBricker30/Engineering3/assets/143528213/896c4c5b-4e64-4d1d-b46a-123b3a68b62f)
+![image](https://github.com/JoshBricker30/Engineering3/assets/143528213/18be97c7-8c6a-47fe-aa0d-1148cbb50759)
 
-![DesignPic2](https://github.com/JoshBricker30/Engineering3/assets/143528213/3e005da2-d389-48eb-a781-d1367075a09d)
-
-![DesignPic3](https://github.com/JoshBricker30/Engineering3/assets/143528213/9dadb9ef-a50d-4de0-8c7f-c09869f63296)
 
 
 ### Wiring
@@ -456,7 +455,6 @@ Don't just tell the reader what went wrong or was challenging!  Describe how you
 
 Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
 
-### Evidence
 
 Take several cropped screenshots of your Onshape document from different angles. Try to capture all important aspects of the design. Turn off overlays that obscure the parts, such as planes or mate connectors. Your images should have captions, so the reader knows what they are looking at!  
 
