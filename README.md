@@ -383,6 +383,65 @@ Don't just tell the reader what went wrong or was challenging!  Describe how you
 
 
 
+## Robot Arm Planning And Project
+
+### Planning, Description
+The goal of our robot arm is to be able to pick up an object and place it in a diffrent location based on the person controlling it. We plan to make our robot arm open and close with a screw like sytem powered by dc motors and double A batteries. We plan to 3D print our robot arm and make the wiring out of the materials provided by the engineering lab, which include 3 DC motors, male jumper cabels, Ardiuno, breadboard, other wiring related objects and 3d printed part's. The design is relativily simple with the main motion of the arm opening and closing and going up and down working on the screw sytem, and the arm moving right to left on a pully sytem connected to a frame. The code will make it so we have buttons that will control open close, up down, and side to side. Our goal is to make it work like a arcade claw machine but with buttons.
+  
+
+```python
+import time 
+import board
+from analogio import AnalogIn
+import pwmio
+from digitalio import DigitalInOut
+
+#pins
+potentiometerpin = AnalogIn(board.A0)
+motorpin = pwmio.PWMOut(board.D7)
+
+while True:
+    print(button.value)
+    if button.value:  # Button is pressed (remember, we're assuming it's pull-down)
+        print("btn1 pressed \t")
+        print(current_angle)
+        current_angle = current_angle + 10
+        current_angle = max(0, min(360, current_angle))
+    time.sleep(0.05)  # Small delay to avoid excessive checking
+
+    print(button2.value)
+    if button2.value:  # Button is pressed (remember, we're assuming it's pull-down)
+        print("btn2 pressed \t")
+        print(current_angle)
+        current_angle = current_angle - 10
+        current_angle = max(0, min(360, current_angle))
+        print(potentiometerpin.value)
+    time.sleep(0.1)
+    motorpin.duty_cycle = potentiometerpin.value
+
+    time.sleep(0.05)  # Small delay to avoid excessive checking
+
+### Evidence
+<img src="images/DesignPic1.png" size="50%">
+<img src="images/DesignPic2.png" size="50%">
+<img src="images/DesignPic3.png" size="50%">
+### Wiring
+[tinkercad.com](https://www.tinkercad.com/learn/circuits).  If you can't find the particular part you need, get creative, and just drop a note into the circuit diagram, explaining.
+For example, I use an Arduino Uno to represent my Circuitpython device but write a note saying which board I'm actually using.
+Then post an image here.   [Here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+### Reflection
+Don't just tell the reader what went wrong or was challenging!  Describe how you figured it out, share the things that helped you succeed (tutorials, other people's repos, etc.), and then share what you learned from that experience.  **Your underlying goal for the reflection, is to concisely pass on the RIGHT knowledge that will help the reader recreate this assignment better or more easily.  Pass on your wisdom!**
+
+
+
+
+
+
+
+
+
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
