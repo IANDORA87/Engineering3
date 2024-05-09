@@ -253,6 +253,45 @@ For this assingment i struggled with the dimensions and putting the parts togeth
 
 
 
+## Onshape Certification Prep Part 1: Single Part
+
+### Assignment Description
+
+This first assignment is practice for the first part of the Onshape certification exam and is supposed to be like it, which is the single part 3d design. For the assignment we had to create a V-block. The modeling was a good practice on using variables for the real test becuase the real one will ask us to modify them to see if design intent was followed properly. 
+
+### Evidence
+
+<table>
+  <tr>
+    <td>
+      <img src="./images/singlepart1.png" alt="Configuration 1">
+      <br>
+      <i>Configuration 1 Isometric View</i>
+    </td>
+    <td>
+      <img src="./images/singlepart3.png" alt="Configuration 3">
+      <br>
+      <i>Configuration 3 Isometric View</i>
+    </td>
+  </tr>
+</table>
+
+
+### Part Link 
+
+[Link to Onshape Document](https://cvilleschools.onshape.com/documents/cd78b8fa1f4fae5e57aa9c82/w/e451815e3ceae4b1d9177709/e/d6cd4c60769dd8532e4bef87)
+
+### Reflection
+
+This assignment was relativly easy and was a good way to learn that even though there are different ways to build a part some ways are easier than others. For this assignment I was able to speed the prossess up by building the part starting from the side view instead of the top. since the part is symmetric I only needed to sketch the right part and I could mirror it when ready for the complete design. Overall the assinemnt was good way to practice some new tricks and methods that could be takane advantged of on the exam. Some were more risky and wernt things i would want to use on the exam which was good to learn in practice instead of messing up on the exam.
+
+
+
+
+
+
+
+
 
 
 
