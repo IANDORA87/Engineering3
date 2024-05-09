@@ -260,21 +260,8 @@ For this assingment i struggled with the dimensions and putting the parts togeth
 This first assignment is practice for the first part of the Onshape certification exam and is supposed to be like it, which is the single part 3d design. For the assignment we had to create a V-block. The modeling was a good practice on using variables for the real test becuase the real one will ask us to modify them to see if design intent was followed properly. 
 
 ### Evidence
-
-<table>
-  <tr>
-    <td>
-      <img src="./images/singlepart1.png" alt="Configuration 1">
-      <br>
-      <i>Configuration 1 Isometric View</i>
-    </td>
-    <td>
-      <img src="./images/singlepart3.png" alt="Configuration 3">
-      <br>
-      <i>Configuration 3 Isometric View</i>
-    </td>
-  </tr>
-</table>
+<img width="599" alt="singlepart3" src="https://github.com/JoshBricker30/Engineering3/assets/143528213/23710d16-9cd9-4084-be71-06c931e58065">
+<img width="550" alt="singlepart1" src="https://github.com/JoshBricker30/Engineering3/assets/143528213/8ad3a262-cf35-4b5f-ab45-12341b0b6ee6">
 
 
 ### Part Link 
