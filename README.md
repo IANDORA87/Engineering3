@@ -265,12 +265,38 @@ This first assignment is practice for the first part of the Onshape certificatio
 
 
 ### Part Link 
-
-[Link to Onshape Document](https://cvilleschools.onshape.com/documents/cd78b8fa1f4fae5e57aa9c82/w/e451815e3ceae4b1d9177709/e/d6cd4c60769dd8532e4bef87)
+https://cvilleschools.onshape.com/documents/6d05980a6ad370edf9691a4a/w/2a83d331d37e2be7e411f6d8/e/bf9985779e6f766f4620e8fd?renderMode=0&uiState=663ce741ea9f4f27e550a8bf
 
 ### Reflection
 
 This assignment was relativly easy and was a good way to learn that even though there are different ways to build a part some ways are easier than others. For this assignment I was able to speed the prossess up by building the part starting from the side view instead of the top. since the part is symmetric I only needed to sketch the right part and I could mirror it when ready for the complete design. Overall the assinemnt was good way to practice some new tricks and methods that could be takane advantged of on the exam. Some were more risky and wernt things i would want to use on the exam which was good to learn in practice instead of messing up on the exam.
+
+
+
+
+
+
+
+
+## Onshape Certification Prep Part 3: Assemblies
+
+### Assignment Description
+
+This assignment is to make the assembly part of the modeling part of the Onshape exam, which tests our assembly skills. For this one we had to make a working locking plier with a focus on having the right movment of the lower jaw.
+
+### Evidence
+
+<img width="575" alt="plier1" src="https://github.com/JoshBricker30/Engineering3/assets/143528213/08ebbc55-4872-4b73-83e4-72c9d3830c14">
+
+<img width="794" alt="plier2" src="https://github.com/JoshBricker30/Engineering3/assets/143528213/a105a208-2f19-4c84-8595-0b4c1bdcb7c7">
+
+
+### Part Link 
+
+https://cvilleschools.onshape.com/documents/23e0a665d50d790109e6eed4/w/da67313b18309b4281f3d853/e/7598dd6704f44c8f734d9824?renderMode=0&uiState=663cec3001d0a7146a166e99
+
+### Reflection
+I personlanly think that assembly is the most complicated part of onshape becuse of all the eroors i expeircance while doing it witch parts blocking eachother and needing to be persise with mates. Overll this assignment is helpfull to me for that reason and was needed to help me pass the exam. Again i has a lot of issues with parts blocking eachother when i fasnted them, and roating mates making no sense. This assinemnt taught me a lot about the rotator mates, even if I needed help from more expeirced people to complete it like Alexis and Caoline, but in the end it helped me progress. Another issue i ran into was getting the curves on thew handle which was also great practice and i feel as this brought me one step closer to having the skills to pass.
 
 
 
@@ -315,55 +341,11 @@ This assingment was challenging due to THe complexty of adding the new parts on 
 
 
 
-## Multipart Part pt 1
-
-### Assignment Description
-
-The goal of this aasignment was to create a one part design in onshape. You are suppsoed to follow the pictures dimentions and create a complicated one part design. 
-
-### Evidence
-<img src="images/MultipartFront.png" size="50%">
-<img src="images/MultipartSide.png" size="50%">
-<img src="images/MultipartTop.png" size="50%">
-<img src="images/MultipartBottom.png" size="50%">
-
-### Part Link 
-
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
-
-### Reflection
-
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
-
-&nbsp;
 
 
 
 
 
-
-
-
-
-## Single
-
-### Assignment Description
-
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
-
-### Evidence
-
-Take several cropped screenshots of your Onshape document from different angles. Try to capture all important aspects of the design. Turn off overlays that obscure the parts, such as planes or mate connectors. Your images should have captions, so the reader knows what they are looking at!  
-
-### Part Link 
-
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
-
-### Reflection
-
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
-
-&nbsp;
 
 
 
