@@ -348,6 +348,71 @@ This assingment was challenging due to THe complexty of adding the new parts on 
 
 
 
+## Photointerruptor
+
+### Description & Code
+Everytime the photointerruptor senses something The number on the Screen would increase. This was achieved by while true and if and then statements to make it so whenever the light in the photointerupter was interuped it increaed a number by one.
+
+```python
+import time
+import board
+import digitalio
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+
+
+photointerrupter = digitalio.DigitalInOut(board.D8) # Set up the photointerrupter using digital pin 8.
+photointerrupter.direction = digitalio.Direction.INPUT# Set the photointerrupter as an input.
+photointerrupter.pull = digitalio.Pull.UP # Use the internal pull-up resistor. 
+
+lcd = LCD(I2CPCF8574Interface(board.I2C(), 0x27), num_rows=2, num_cols=16)
+lcd.set_cursor_pos(0,0)
+lcd.print("# of interrupts: ")
+
+# Set the photointerrupter_state as None for now!
+photointerrupter_state = None   
+interrupt_counter = 0
+
+# Set up 2nd row of LCD for interrupt counter printing
+lcd.set_cursor_pos(1,0)
+lcd.print("0")
+
+now = time.monotonic()  # Time in seconds since power on
+
+while True:
+    if (now + 4) < time.monotonic(): # Print to LCD screen # of interrupts with a 4 second delay
+        lcd.set_cursor_pos(1,0)
+        lcd.print(str(interrupt_counter))
+        now = time.monotonic()
+        
+    # If the photointerrupter is interrupted, set the photointerrupter_state to "interrupted" and increment counter
+    if photointerrupter.value and photointerrupter_state is None:
+        photointerrupter_state = "interrupted"
+        interrupt_counter += 1 # Increase a variable called interrupt_counter by 1.
+        print("Photointerrupter was interrupted, counter: ", interrupt_counter) # Print the number of interrupts to the LCD. 
+        
+    # When not interrupted, set the state back to None
+    if not photointerrupter.value and photointerrupter_state == "interrupted":
+        photointerrupter_state = None
+        print("Photointerrupter state reset")
+
+```
+
+### Evidence
+![PhotoIntGIF](https://github.com/JoshBricker30/Engineering3/assets/143528213/595468a3-408f-46a2-9738-c217c1af5df1)
+
+
+### Wiring
+<img width="661" alt="PhotoIntWiring" src="https://github.com/JoshBricker30/Engineering3/assets/143528213/2b90afa1-1045-43f7-866e-235c6a87ecb8">
+
+### Reflection
+In this assigemnt The code and wiring were more complicated then assigments ive done in the past but I ended up compelteing it correctly and sucsesfully. I ran into issue in getting the lcd screen to bring up a tester work at first which made me do some trouble shooting to see why nothing would appear on the screen which mr miller ended up helping me figure out that it was a issue with the code. After that once I fainlly got it all working with the screen on and it said the correct thing it was very inconsistent in when it actaully increaed the number. Eventually i figured out it was becuase the delay was to highon the code and it worked.
+
+
+
+
+
+
 
 
 
