@@ -418,6 +418,78 @@ In this assigemnt The code and wiring were more complicated then assigments ive 
 
 
 
+## Rotary Encoder & LCD
+
+### Description & Code
+
+For this assignment we were supposed to use the rotary encoder to make a controlable traffic light the options would be be shown on a LCD screen then the light that is chosen is shown on the NeoPixel. The encoder is how you choose what you want thye light to be. The options being stop, caution, and go. The LED turned red, yellow, or green based on what you choose. 
+
+```python
+import rotaryio
+import board
+import neopixel
+import digitalio
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+
+# Init LCD + encoder
+lcd = LCD(I2CPCF8574Interface(board.I2C(), 0x27), num_rows=2, num_cols=16)
+enc = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor=2)
+
+# Init LED
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led.brightness = 0.3
+led[0] = (255, 0, 0)
+
+# Init Button
+button = digitalio.DigitalInOut(board.D2)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
+button_state = None
+
+# Set up menus + LCD
+menu = ["stop", "caution", "go"]
+ledmenu = [(255, 0, 0), (255, 255, 0), (0, 255, 0)]
+menu_index = None
+
+lcd.set_cursor_pos(0,0)
+lcd.print("Push For: ")
+
+# Main loop: stop light menu
+while True:
+    # Update menu index
+    if(menu_index != enc.position % 3):
+        menu_index = enc.position % 3
+        lcd.set_cursor_pos(1,0)
+        lcd.print(menu[menu_index]+"     ")    
+    
+    # Debounce button + select menu item
+    if not button.value and button_state is None:
+        button_state = "pressed"
+    if button.value and button_state == "pressed":
+        print("Button is pressed")
+        button_state = None
+        
+        # Change LED according to menu
+        led[0] = ledmenu[menu_index]
+```
+
+### Evidence
+-![ezgif-4-655ba25f28](https://github.com/JoshBricker30/Engineering3/assets/143528213/a4c68cf1-7f95-4c27-a1ed-2106ae841d40)
+
+
+### Wiring
+<img width="417" alt="trafficlightwiring" src="https://github.com/JoshBricker30/Engineering3/assets/143528213/752c1b2a-e5b4-46d4-8a1b-f01957407421">
+
+
+### Reflection
+This assigemnts was by far the hardst coding I had to do this year. It reqiured being able to combine two diffrent past assingments in a way, but it wasnt as simple as just putting both codes into one i had to create a new hybrid sort of code to get it to work. this one I has a easier time with the wiring becuase it wasnt many parts to it which i appriate. A part id say i stuggled with would be getting all three major parts of this to work together, the parts being the rotary, LCD and neopixle. Overall it helped advace my knowlage and skill on coding and was a good assigemnt for learning.
+
+
+
+
+
+
 
 
 
